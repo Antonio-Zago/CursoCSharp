@@ -1,8 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using CursoCSharp.Colecoes;
 using CursoCSharp.Fundamentos;
+using CursoCSharp.POO;
 
-
-Dicionario param = new Dicionario();
+Encapsulamento param = new Encapsulamento();
 
 param.Executar();  

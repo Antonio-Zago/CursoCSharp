@@ -1,30 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {
-      "ClassLibrary1/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "compile": {
-          "bin/placeholder/ClassLibrary1.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/ClassLibrary1.dll": {}
-        }
-      }
-    }
+    "net6.0": {}
   },
-  "libraries": {
-    "ClassLibrary1/1.0.0": {
-      "type": "project",
-      "path": "../ClassLibrary1/ClassLibrary1.csproj",
-      "msbuildProject": "../ClassLibrary1/ClassLibrary1.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net6.0": [
-      "ClassLibrary1 >= 1.0.0"
-    ]
+    "net6.0": []
   },
   "packageFolders": {
     "C:\\Users\\Antonio Zago\\.nuget\\packages\\": {}
@@ -32,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Meus Projetos\\CursoCSharp\\CursoCSharp\\CursoCSharp.csproj",
-      "projectName": "CursoCSharp",
-      "projectPath": "D:\\Meus Projetos\\CursoCSharp\\CursoCSharp\\CursoCSharp.csproj",
+      "projectUniqueName": "D:\\Meus Projetos\\CursoCSharp\\ClassLibrary1\\ClassLibrary1.csproj",
+      "projectName": "ClassLibrary1",
+      "projectPath": "D:\\Meus Projetos\\CursoCSharp\\ClassLibrary1\\ClassLibrary1.csproj",
       "packagesPath": "C:\\Users\\Antonio Zago\\.nuget\\packages\\",
-      "outputPath": "D:\\Meus Projetos\\CursoCSharp\\CursoCSharp\\obj\\",
+      "outputPath": "D:\\Meus Projetos\\CursoCSharp\\ClassLibrary1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Antonio Zago\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -52,11 +33,7 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {
-            "D:\\Meus Projetos\\CursoCSharp\\ClassLibrary1\\ClassLibrary1.csproj": {
-              "projectPath": "D:\\Meus Projetos\\CursoCSharp\\ClassLibrary1\\ClassLibrary1.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
