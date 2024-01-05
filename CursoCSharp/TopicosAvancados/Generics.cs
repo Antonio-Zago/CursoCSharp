@@ -32,6 +32,6 @@ namespace CursoCSharp.TopicosAvancados
     //Defini que CaixaInt herda da minha classe generica passando o int para o T
     class CaixaInt : Caixa<int>
     {
-        public CaixaInt() : base(0) { }
+        public CaixaInt() : base(0,0) { }
     }
 }
